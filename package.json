@@ -1,0 +1,55 @@
+{
+  "name": "humantiv-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://us-central1-health-score-6740b.cloudfunctions.net/",
+  "dependencies": {
+    "@material-ui/core": "^4.6.0",
+    "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.31",
+    "axios": "^0.19.0",
+    "faker": "^4.1.0",
+    "numeral": "^2.0.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0",
+    "recharts": "^1.8.5",
+    "root": "file:./"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "sb": "yarn storybook",
+    "sb:on": "sed -i '' 's/isStorybook = false/isStorybook = true/g' env.js",
+    "sb:off": "sed -i '' 's/isStorybook = true/isStorybook = false/g' env.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.0",
+    "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-links": "^5.2.5",
+    "@storybook/addon-storysource": "^5.2.5",
+    "@storybook/addons": "^5.2.5",
+    "@storybook/react": "^5.2.5",
+    "babel-loader": "^8.0.6"
+  }
+}
