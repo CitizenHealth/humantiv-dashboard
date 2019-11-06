@@ -2,6 +2,10 @@
   "name": "humantiv-dashboard",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.6.0",
+    "node": "12.9.1"
+  },
   "proxy": "https://us-central1-health-score-6740b.cloudfunctions.net/",
   "dependencies": {
     "@material-ui/core": "^4.6.0",
@@ -20,6 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "git push heroku master",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
