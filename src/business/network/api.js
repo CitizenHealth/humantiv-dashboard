@@ -10,7 +10,19 @@ const getTotalMedit  = async () => {
 	return response.data; 
 }
 
+const getDeviceStats  = async () => {
+	const response = await humantiv.get('/adminGetSourcesStats')
+	return response.data; 
+}
+
+const getJourneyStats  = async () => {
+	const response = await humantiv.get('/adminGetJourneyStats')
+	return response.data; 
+}
+
 export {
 	getTotalUsers,
-	getTotalMedit
+	getTotalMedit,
+	getDeviceStats,
+	getJourneyStats
 }

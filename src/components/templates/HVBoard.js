@@ -18,57 +18,6 @@ import {
 	formatMoney
 } from '../../business'
 
-const sensors = [
-	{
-		name: "Fitbit",
-		value: 2391,
-		color: SharedColors.blue
-	},
-	{
-		name: "Misfit",
-		value: 571,
-		color: SharedColors.blue
-	},
-	{
-		name: "Withings",
-		value: 143,
-		color: SharedColors.blue
-	},
-	{
-		name: "Apple",
-		value: 2534,
-		color: SharedColors.blue
-	},
-	{
-		name: "None",
-		value: 5690,
-		color: SharedColors.blue
-	}
-];
-
-const journey = [
-	{
-		name: "Immunity",
-		value: 1524,
-		color: SharedColors.blue
-	},
-	{
-		name: "Longevity",
-		value: 354,
-		color: SharedColors.darkGreen
-	},
-	{
-		name: "Performance",
-		value: 4193,
-		color: SharedColors.darkYellow
-	},
-	{
-		name: "Energy",
-		value: 2654,
-		color: SharedColors.darkRed
-	}
-];
-
 const useStyles = makeStyles({
 	root: {
 		flex: 1, 
@@ -122,7 +71,7 @@ const useStyles = makeStyles({
 
 const HVBoard = () => {
 	const classes = useStyles();
-	const [data, medit, loading, reFetch] = useFetch();
+	const [data, medit, devices, journeys, loading, reFetch] = useFetch();
 
 	return (
 		<div className={classes.root}>
@@ -188,12 +137,12 @@ const HVBoard = () => {
 					>
 						<HVBarchart 
 							title="Fitness Trackers"
-							data={sensors}
+							data={devices}
 							loading={loading}
 						/>
 						<HVBarchart 
 							title="Journey"
-							data={journey}
+							data={journeys}
 							loading={loading}
 						/>
 					</Grid>
