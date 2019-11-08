@@ -24,6 +24,10 @@ const useStyles = makeStyles({
   title: {
     fontSize: 35,
   },
+  titleComingSoon: {
+    fontSize: 16,
+
+  },
   subtitle: {
     fontSize: 10,
   },
@@ -36,6 +40,7 @@ const HVStatCard = ({
   title,
   subtitle,
   loading,
+  isComingSoon,
   children,
 }) => {
 
@@ -61,7 +66,10 @@ const HVStatCard = ({
         : 
         <CardContent>
           {children}
-          <Typography className={classes.title}>
+          <Typography 
+            className={isComingSoon ? classes.titleComingSoon : classes.title} 
+            color={ isComingSoon ? "textSecondary" : "textPrimary" }
+          >
             {title}
           </Typography>
           <Typography className={classes.subtitle} color="textSecondary" gutterBottom>
@@ -75,6 +83,7 @@ const HVStatCard = ({
 
 HVStatCard.propTypes = {
   title: PropTypes.string,
+  isComingSoon: PropTypes.bool,
   subtitle: PropTypes.string,
   loading: PropTypes.bool,
   children: PropTypes.element.isRequired,
@@ -82,6 +91,7 @@ HVStatCard.propTypes = {
 
 HVStatCard.defaultProps = {
   title: "Title",
+  isComingSoon: false,
   subtitle: "Subtitle",
   loading: false,
   children: PropTypes.string,

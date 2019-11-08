@@ -105,23 +105,26 @@ const HVBoard = () => {
 							<AccountBalance className={classes.totalMeditIcon}/>
 						</HVStatCard>
 						<HVStatCard 
-							title="6.7"
+							title="Coming Soon"
 							subtitle="Average Sleep Hours"
 							loading={loading}
+							isComingSoon
 						>
 							<Hotel className={classes.averageSleepIcon}/>
 						</HVStatCard>
 						<HVStatCard 
-							title="10,130"
+							title="Coming Soon"
 							subtitle="Total Steps"
 							loading={loading}
+							isComingSoon
 						>
 							<AccountBalance className={classes.totalActivityIcon}/>
 						</HVStatCard>
 						<HVStatCard 
-							title="432.7"
+							title="Coming Soon"
 							subtitle="Total Activity Minutes"
 							loading={loading}
+							isComingSoon
 						>
 							<DirectionsRun className={classes.totalStepsIcon}/>
 						</HVStatCard>
