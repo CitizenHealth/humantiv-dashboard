@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/CitizenHealth/humantiv-dashboard/static/css/main.b100e6da.chunk.css",
-    "main.js": "/CitizenHealth/humantiv-dashboard/static/js/main.bdfac48f.chunk.js",
-    "main.js.map": "/CitizenHealth/humantiv-dashboard/static/js/main.bdfac48f.chunk.js.map",
-    "runtime-main.js": "/CitizenHealth/humantiv-dashboard/static/js/runtime-main.dfdc58ff.js",
-    "runtime-main.js.map": "/CitizenHealth/humantiv-dashboard/static/js/runtime-main.dfdc58ff.js.map",
-    "static/js/2.5d7a1087.chunk.js": "/CitizenHealth/humantiv-dashboard/static/js/2.5d7a1087.chunk.js",
-    "static/js/2.5d7a1087.chunk.js.map": "/CitizenHealth/humantiv-dashboard/static/js/2.5d7a1087.chunk.js.map",
-    "index.html": "/CitizenHealth/humantiv-dashboard/index.html",
-    "precache-manifest.cf5052f311b11c285f59bbceaf898bdd.js": "/CitizenHealth/humantiv-dashboard/precache-manifest.cf5052f311b11c285f59bbceaf898bdd.js",
-    "service-worker.js": "/CitizenHealth/humantiv-dashboard/service-worker.js",
-    "static/css/main.b100e6da.chunk.css.map": "/CitizenHealth/humantiv-dashboard/static/css/main.b100e6da.chunk.css.map",
-    "static/media/logo.png": "/CitizenHealth/humantiv-dashboard/static/media/logo.da3e88f7.png"
+    "main.css": "/humantiv-dashboard/static/css/main.b100e6da.chunk.css",
+    "main.js": "/humantiv-dashboard/static/js/main.2b522911.chunk.js",
+    "main.js.map": "/humantiv-dashboard/static/js/main.2b522911.chunk.js.map",
+    "runtime-main.js": "/humantiv-dashboard/static/js/runtime-main.c80fadd6.js",
+    "runtime-main.js.map": "/humantiv-dashboard/static/js/runtime-main.c80fadd6.js.map",
+    "static/js/2.5d7a1087.chunk.js": "/humantiv-dashboard/static/js/2.5d7a1087.chunk.js",
+    "static/js/2.5d7a1087.chunk.js.map": "/humantiv-dashboard/static/js/2.5d7a1087.chunk.js.map",
+    "index.html": "/humantiv-dashboard/index.html",
+    "precache-manifest.6839ed56474cad0195f0ea04cf6e916f.js": "/humantiv-dashboard/precache-manifest.6839ed56474cad0195f0ea04cf6e916f.js",
+    "service-worker.js": "/humantiv-dashboard/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/humantiv-dashboard/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.png": "/humantiv-dashboard/static/media/logo.da3e88f7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.dfdc58ff.js",
+    "static/js/runtime-main.c80fadd6.js",
     "static/js/2.5d7a1087.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.bdfac48f.chunk.js"
+    "static/js/main.2b522911.chunk.js"
   ]
 }
