@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d1a32b2d7c56bc0f03b619e3c3be26ec",
+    "revision": "94df67e88b05aff4075936a2eb615deb",
     "url": "/humantiv-dashboard/index.html"
   },
   {
