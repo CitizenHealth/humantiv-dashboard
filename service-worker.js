@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/humantiv-dashboard/precache-manifest.a3ac39f2223117058acfe86269047ab4.js"
+  "/humantiv-dashboard/precache-manifest.615036852c07512bf2da5cec26446dd7.js"
 );
 
 self.addEventListener('message', (event) => {
