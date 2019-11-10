@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94df67e88b05aff4075936a2eb615deb",
+    "revision": "ffb0c844b12ef5f2b54974d1015778e8",
     "url": "/humantiv-dashboard/index.html"
   },
   {
-    "revision": "7ef3ac1c31cde9b033bd",
+    "revision": "e876b9bc1052601baaa4",
     "url": "/humantiv-dashboard/static/css/main.b100e6da.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/humantiv-dashboard/static/js/2.5d7a1087.chunk.js"
   },
   {
-    "revision": "7ef3ac1c31cde9b033bd",
-    "url": "/humantiv-dashboard/static/js/main.8169559f.chunk.js"
+    "revision": "e876b9bc1052601baaa4",
+    "url": "/humantiv-dashboard/static/js/main.2b522911.chunk.js"
   },
   {
     "revision": "fdbd4039ff5460b5c030",
