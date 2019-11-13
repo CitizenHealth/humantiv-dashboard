@@ -1,2 +1,2 @@
 export { default as HVMenuBar } from './HVMenuBar';
-export { default as HVDrawer } from './HVDrawer'
+export { default as HVDrawer } from './HVDrawer';

@@ -2,6 +2,7 @@
   "name": "humantiv-dashboard",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://citizenhealth.github.io/humantiv-dashboard",
   "engines": {
     "npm": "6.6.0",
     "node": "12.9.1"
@@ -13,18 +14,23 @@
     "@material-ui/lab": "^4.0.0-alpha.31",
     "axios": "^0.19.0",
     "faker": "^4.1.0",
+    "lottie-react-web": "^2.1.4",
     "numeral": "^2.0.6",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "react-shapes": "^0.1.0",
+    "react-with-firebase-auth": "^1.1.0",
     "recharts": "^1.8.5",
     "root": "file:./"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "git push heroku master",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
@@ -55,6 +61,7 @@
     "@storybook/addon-storysource": "^5.2.5",
     "@storybook/addons": "^5.2.5",
     "@storybook/react": "^5.2.5",
-    "babel-loader": "^8.0.6"
+    "babel-loader": "^8.0.6",
+    "gh-pages": "^2.1.1"
   }
 }

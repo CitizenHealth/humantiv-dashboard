@@ -1,11 +1,29 @@
 import React from 'react';
 import './App.css';
-import Dashboard from './screens/Dashboard'
+import { 
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom';
+import Navigation from './navigation/Navigation';
+import Landing from './screens/Landing';
+import SignIn from './screens/SignIn';
+import DashBoard from './screens/Dashboard';
+import Account from './screens/Account';
+import * as ROUTES from './navigation/routes';
 
 function App() {
 
   return (
-    <Dashboard/>
+    <Router>
+      <div>
+        <Navigation />
+        <hr />
+        <Route exact path={ROUTES.LANDING} component={Landing} />
+        <Route path={ROUTES.SIGN_IN} component={SignIn} />
+        <Route path={ROUTES.HOME} component={DashBoard} />
+        <Route path={ROUTES.ACCOUNT} component={Account} />
+      </div>
+    </Router>
   );
 }
 
