@@ -48,7 +48,6 @@ const HVLoginRightPanel = ({
 			alignItems="center"
 			justify="space-between"
 			style={{ 
-				minHeight: '100vh',
 				backgroundColor: SharedColors.loginGreen
 		  }}
 		>
@@ -95,7 +94,7 @@ const HVLoginRightPanel = ({
 }
 
 HVLoginRightPanel.propTypes={
-	image: PropTypes.number.isRequired
+	image: PropTypes.string.isRequired
 };
 
 export default HVLoginRightPanel;

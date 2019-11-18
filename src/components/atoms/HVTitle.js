@@ -38,7 +38,7 @@ const HVTitle = ({
 		>
 			<Grid>
 				<Typography
-					variant="h4"
+					variant="h3"
 					component="h3"
 					className={classes.title}
 				>

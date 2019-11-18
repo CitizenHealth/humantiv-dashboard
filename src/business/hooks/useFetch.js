@@ -41,8 +41,4 @@ const useFetch = () => {
 	return [users, medit, devices, journeys, loading, reFetch];
 };
 
-
-
-export {
-	useFetch
-}
+export default useFetch;

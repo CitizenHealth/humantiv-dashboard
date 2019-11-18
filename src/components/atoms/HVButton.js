@@ -27,10 +27,9 @@ const HVButton = ({
 
 	return (
 		<Fab
-			variant="contained"
+			variant="round"
 			className={classes.button}
 			onClick={onClick}
-			color={color}
 			style={{
 				backgroundColor: SharedColors.white
 			}}

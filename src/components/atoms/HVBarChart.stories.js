@@ -1,5 +1,4 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import { SharedColors } from '../../resources';
 import { HVBarchart } from '.';
 

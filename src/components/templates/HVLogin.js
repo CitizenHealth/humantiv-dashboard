@@ -15,16 +15,18 @@ const HVLogin = ({
 			spacing={0}
 		>
 			<Grid
-				item 
-				xs={5}
+				style={{
+					flex: 1
+				}}
 			>
 				<HVLoginLeftPanel
 					onLogin={onLogin}
 				/>
 			</Grid>
 			<Grid
-				item 
-				xs
+				style={{
+					flex: 2
+				}}
 			>
 				<HVLoginRightPanel
 					image={SharedImages.logo}

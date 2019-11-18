@@ -4,3 +4,6 @@ export { default as HVBarchart } from './HVBarChart';
 export { default as HVButton } from './HVButton';
 export { default as HVTitle } from './HVTitle';
 export { default as HVRectangle } from './HVRectangle';
+export { default as HVAnimation } from './HVAnimation';
+export { default as HVSnackBar } from './HVSnackBar';
+export { default as HVProgress } from './HVProgress';

@@ -1,6 +1,6 @@
 const SharedMetrics = {
   cardHeight: 150,
-  rectangleWidth: 37,
+  rectangleWidth: 45,
   rectangleHeight: 5
 
 }

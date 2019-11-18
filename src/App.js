@@ -16,8 +16,6 @@ function App() {
   return (
     <Router>
       <div>
-        <Navigation />
-        <hr />
         <Route exact path={ROUTES.LANDING} component={Landing} />
         <Route path={ROUTES.SIGN_IN} component={SignIn} />
         <Route path={ROUTES.HOME} component={DashBoard} />
