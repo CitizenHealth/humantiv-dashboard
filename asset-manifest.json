@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/humantiv-dashboard/static/css/main.b100e6da.chunk.css",
-    "main.js": "/humantiv-dashboard/static/js/main.dd475791.chunk.js",
-    "main.js.map": "/humantiv-dashboard/static/js/main.dd475791.chunk.js.map",
+    "main.js": "/humantiv-dashboard/static/js/main.27fa4feb.chunk.js",
+    "main.js.map": "/humantiv-dashboard/static/js/main.27fa4feb.chunk.js.map",
     "runtime-main.js": "/humantiv-dashboard/static/js/runtime-main.c80fadd6.js",
     "runtime-main.js.map": "/humantiv-dashboard/static/js/runtime-main.c80fadd6.js.map",
-    "static/js/2.1f6bc99c.chunk.js": "/humantiv-dashboard/static/js/2.1f6bc99c.chunk.js",
-    "static/js/2.1f6bc99c.chunk.js.map": "/humantiv-dashboard/static/js/2.1f6bc99c.chunk.js.map",
+    "static/js/2.06385cd7.chunk.js": "/humantiv-dashboard/static/js/2.06385cd7.chunk.js",
+    "static/js/2.06385cd7.chunk.js.map": "/humantiv-dashboard/static/js/2.06385cd7.chunk.js.map",
     "index.html": "/humantiv-dashboard/index.html",
-    "precache-manifest.0184cb58b37addac668b8c593235f216.js": "/humantiv-dashboard/precache-manifest.0184cb58b37addac668b8c593235f216.js",
+    "precache-manifest.561f1358db5e3c467ca85f726e3344bd.js": "/humantiv-dashboard/precache-manifest.561f1358db5e3c467ca85f726e3344bd.js",
     "service-worker.js": "/humantiv-dashboard/service-worker.js",
     "static/css/main.b100e6da.chunk.css.map": "/humantiv-dashboard/static/css/main.b100e6da.chunk.css.map",
     "static/media/logo.png": "/humantiv-dashboard/static/media/logo.58727b6d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c80fadd6.js",
-    "static/js/2.1f6bc99c.chunk.js",
+    "static/js/2.06385cd7.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.dd475791.chunk.js"
+    "static/js/main.27fa4feb.chunk.js"
   ]
 }
