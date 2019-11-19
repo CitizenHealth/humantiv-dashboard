@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import * as ROUTES from '../navigation/routes';
+import { Grid } from '@material-ui/core';
 import { HVAnimation } from '../components/atoms';
 import { SharedAnimations } from '../resources';
 import { useAuth } from '../business';
@@ -16,20 +17,21 @@ const Landing = () => {
         return;
       }
       history.push(ROUTES.SIGN_IN)
-    }, 3000);
+    }, 2000);
   },[]);
 
   return (
-    <div
+    <Grid
+      container
       style={{
-        justifyContent: 'center',
-        alignItems: 'center'
+        flex: 1,
+        height: '100%',
       }}
     >
       <HVAnimation
         source={SharedAnimations.loading}
       />
-    </div>
+    </Grid>
   );
 }
 
